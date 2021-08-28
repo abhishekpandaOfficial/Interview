@@ -1,0 +1,24 @@
+git credential-osxkeychain erase host=github.com protocol=https  
+
+
+git init
+
+git add .
+
+git commit -m "Message"
+
+git branch -M main
+
+git remote add origin https://github.com/abhishekpandaOfficial/TaskManagerUI.git
+
+git push -u origin master
+
+==================
+
+or push an existing repository from the command line
+
+git remote add origin https://github.com/abhishekpandaOfficial/TaskManagerUI.git
+
+git branch -M main
+
+git push -u origin main
